@@ -1,33 +1,40 @@
-#headerTitle{
+#headerTitle
+{
   font-size: 4.5em;
   text-align: center;
   font-weight: 500;
   color: #D96525;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
 }
 
-#headerSub{
+#headerSub
+{
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   margin: 10px 0px 20px 0px;
 }
 
-#referenceLink{
+#referenceLink
+{
   text-decoration: none;
 }
 
-#referenceLink:link {color:#000000;}
+#referenceLink:link    {color:#000000;}
 #referenceLink:visited {color:#000000;}
-#referenceLink:hover {color:#000000;}
-#referenceLink:active {color:#000000;}
+#referenceLink:hover   {color:#000000;}
+#referenceLink:active  {color:#000000;}
 
-body{
+body
+{
   font-family: "Helvetica", "Arial";
 }
 
-h3{
+h3
+{
   color: #D96525;
+  font-size: 2em;
+  font-weight: 100;
   text-align: center;
   text-decoration: none;
   margin: 0;
@@ -35,34 +42,40 @@ h3{
   padding-bottom: 5px;
 }
 
-p{
+p
+{
   padding: 4% 0 0 0;
   margin: 0;
 }
 
-img{
+img
+{
   max-width: 100%;
   height: auto;
   width: auto;
 }
 
-#wrapper{
+#wrapper
+{
   margin: 0 auto;
   max-width: 980px;
   width: 100%;
 }
 
-header{
+header
+{
   padding: 5px;
   text-align: center;
 }
 
-header a{
+header a
+{
   color: #D96525;
   text-decoration: none;
 }
 
-nav{
+nav
+{
   clear: both;
   padding: 0;
   margin: 0;
@@ -74,7 +87,8 @@ nav ul{
   padding: 0;
 }
 
-nav li a{
+nav li a
+{
   color: black;
   display: block;
   float: left;
@@ -82,84 +96,101 @@ nav li a{
   text-decoration: none;
 }
 
-.clear{
+.clear
+{
   clear: both;
 }
 
-#social{
+#social
+{
   text-align: center;
 }
 
-#social img{
+#social img
+{
   padding-top: 5px;
   height: 50px;
   width: 50px;
 }
 
-.left-col{
+.left-col
+{
   clear: left;
   float: left;
   /*margin-top: 2%;*/
   width: 49%;
 }
 
-.left_col p{
+.left_col p
+{
   margin: 0;
 }
 
-.comments{
+.comments
+{
   color: #D96525;
 }
 
-.sub_text{
+.sub_text
+{
   color: #888888;
   padding-left: 10%;
   padding-bottom: 4%;
 }
 
-.sub_text a{
+.sub_text a
+{
   color: #D96525;
 }
 
-.right-col{
+.right-col
+{
   clear: right;
   float: right;
   /*margin-top: 2%;*/
   width: 49%;
 }
 
-.section_align{
+.section_align
+{
   clear: both;
   width: 100%;
 }
 
-.contacts{
+.contacts
+{
   clear: both;
 }
 
-.contacts p{
+.contacts p
+{
   padding-top: 0px;
   text-align: center;
 }
 
-.contact_items{
+.contact_items
+{
   text-align: center;
 }
 
-footer{
+footer
+{
   clear: both;
 }
 
-#gitcal{
+#gitcal
+{
   clear: both;
 }
 
-#gitcal p{
+#gitcal p
+{
   text-align: center;
   padding: 0;
 }
 
-footer p{
+footer p
+{
   text-align: center;
   font-size: 10px;
   padding-top: 10px;
@@ -167,58 +198,71 @@ footer p{
 
 
 /*  Media */
-@media only screen and (min-width: 741px) and (max-width: 1024px) {
-  .left-col{
+@media only screen and (min-width: 741px) and (max-width: 1024px)
+{
+  .left-col
+  {
     margin: 0 auto;
     float: none;
     width: 75%;
   }
 
-  .right-col{
+  .right-col
+  {
     margin: 0 auto;
     float: none;
     width: 75%;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 740px) {
-  #headerTitle{
+@media only screen and (min-width: 481px) and (max-width: 740px)
+{
+  #headerTitle
+  {
     font-size: 3.4em;
   }
 
-  #headerSub{
+  #headerSub
+  {
     display: none !important;
   }
 
-  .left-col{
+  .left-col
+  {
     margin: 0 auto;
     float: none;
     width: 85%;
   }
 
-  .right-col{
+  .right-col
+  {
     margin: 0 auto;
     float: none;
     width: 85%;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  #headerTitle{
+@media only screen and (max-width: 480px)
+{
+  #headerTitle
+  {
     font-size: 2em;
   }
 
-  #headerSub{
+  #headerSub
+  {
     display: none !important;
   }
 
-  .left-col{
+  .left-col
+  {
     margin: 0 auto;
     float: none;
     width: 95%;
   }
 
-  .right-col{
+  .right-col
+  {
     margin: 0 auto;
     float: none;
     width: 95%;
